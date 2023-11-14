@@ -109,7 +109,7 @@ def sync_github(commits, submissions):
                 ext = "sql"
             elif language == "Bash":
                 ext = "sh"
-            elif language == "Python":
+            elif language == "Python" or language == "Python3":
                 ext = "py"
             else:
                 raise Exception(f"Unknown language : {submission['language']}")

@@ -6,7 +6,7 @@ Here's a sample repository created using LeetSyncMaster: [leetcode-solutions](ht
 
 ## Features
 
-- Fully automated collection of all your latest accepted submissions with minimal effort setup
+- Fully automated collection of all your latest accepted submissions with minimal effort setup (currently only supports Python3, C++, MySQL and Bash)
 - Single commit for each submission stamped with the original submission date for building rich and accurate contributions graph
 - Automated git pushes to the remote repository with every action triggers
 - Auto-generate README.md based on retrieved submissions
@@ -55,7 +55,7 @@ This LeetSyncMaster GitHub Action is adapted from [dos-m0nk3y/LeetCode-Synchroni
          runs-on: ubuntu-latest
          steps:
            - name: Run LeetSyncMaster
-             uses: shubhamwagh/LeetSyncMaster@v1.0.0
+             uses: shubhamwagh/LeetSyncMaster@v1.1.0
              with:
                GITHUB_TOKEN: ${{ github.token }}
                LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
