@@ -55,7 +55,7 @@ This LeetSyncMaster GitHub Action is adapted from [dos-m0nk3y/LeetCode-Synchroni
          runs-on: ubuntu-latest
          steps:
            - name: Run LeetSyncMaster
-             uses: shubhamwagh/LeetSyncMaster@v1.1.0
+             uses: shubhamwagh/LeetSyncMaster@v1.1.1
              with:
                GITHUB_TOKEN: ${{ github.token }}
                LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}

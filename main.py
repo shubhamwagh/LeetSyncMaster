@@ -119,7 +119,8 @@ def sync_github(commits, submissions):
                 fd.write(submission["code"].strip())
             with open(f"problems/{dir_name}/README.md", "wt") as fd:
                 content = f"<h2>{submission['id']}. {submission['title']}</h2>\n\n"
-                content += submission["content"].strip()
+                if submission["content"] is not None:
+                    content += submission["content"].strip()
                 fd.write(content)
 
             submission["skills"].sort()
