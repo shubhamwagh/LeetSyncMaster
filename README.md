@@ -52,7 +52,7 @@ Here's a sample repository created using LeetSyncMaster: [leetcode-solutions](ht
          runs-on: ubuntu-latest
          steps:
            - name: Run LeetSyncMaster
-             uses: shubhamwagh/LeetSyncMaster@v1.1.1
+             uses: shubhamwagh/LeetSyncMaster@v1.2.0
              with:
                GITHUB_TOKEN: ${{ github.token }}
                LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
