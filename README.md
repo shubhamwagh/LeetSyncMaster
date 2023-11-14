@@ -11,9 +11,6 @@ Here's a sample repository created using LeetSyncMaster: [leetcode-solutions](ht
 - Automated git pushes to the remote repository with every action triggers
 - Auto-generate README.md based on retrieved submissions
 
-## Credits
-
-This LeetSyncMaster GitHub Action is adapted from [dos-m0nk3y/LeetCode-Synchronizer](https://github.com/dos-m0nk3y/LeetCode-Synchronizer). Special thanks to the original author for creating this tool.
 
 ## Setup
 
@@ -73,4 +70,9 @@ This LeetSyncMaster GitHub Action is adapted from [dos-m0nk3y/LeetCode-Synchroni
 - `LEETCODE_SESSION` - **required**. LeetCode session used in accessing LeetCode API
 - `LEETCODE_CSRF_TOKEN` - **required**. LeetCode CSRF token used in accessing LeetCode API
 
+---
+
+#### Credits
+
+This LeetSyncMaster GitHub Action is adapted from [dos-m0nk3y/LeetCode-Synchronizer](https://github.com/dos-m0nk3y/LeetCode-Synchronizer). Special thanks to the original author for creating this tool.
 
